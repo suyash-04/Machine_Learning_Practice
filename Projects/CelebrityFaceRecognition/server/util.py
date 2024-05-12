@@ -33,7 +33,7 @@ def classify_image(image_base64_data, file_path=None):
     return result
 
 def class_number_to_name(class_num):
-    return __class_number_to_name[class_num]
+    return __class_number_to_name[class_num] 
 
 def load_saved_artifacts():
     print("loading saved artifacts...start")
